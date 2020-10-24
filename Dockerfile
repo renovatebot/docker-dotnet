@@ -2,7 +2,7 @@
 # renovate: datasource=docker depName=mcr.microsoft.com/dotnet/core/sdk
 ARG DOTNET_VERSION=3.1.403
 
-FROM renovate/buildpack:2-dotnet@sha256:96fcd543e1b682b447ceb22cfcf8658cf8495df049ab6b45d877b7957ed15637
+FROM renovate/buildpack:2-dotnet@sha256:c2a13fa1278d83b470bfdd58e2fe72714b542d01787f00e36ca489e552b79102
 
 ARG DOTNET_VERSION
 RUN install-tool dotnet
