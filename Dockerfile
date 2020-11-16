@@ -1,5 +1,5 @@
 
-# renovate: datasource=docker depName=mcr.microsoft.com/dotnet/core/sdk
+# renovate: datasource=docker depName=mcr.microsoft.com/dotnet/sdk
 ARG DOTNET_VERSION=3.1.404
 
 FROM renovate/buildpack:2-dotnet@sha256:c2a13fa1278d83b470bfdd58e2fe72714b542d01787f00e36ca489e552b79102
