@@ -10,9 +10,9 @@ ARG FLAVOR=latest
 # renovate: datasource=docker depName=mcr.microsoft.com/dotnet/sdk
 ARG DOTNET_VERSION=3.1.404
 
-FROM renovate/buildpack:2-dotnet@sha256:bd2e1a9ded9a5f2e7f05192530fb32b7f8b58014723691d9ea2d1f31536cf730 as base-latest
-FROM renovate/buildpack:2-dotnet-bionic@sha256:b228de33d5bb00221132a2da21986c460fc8031dcfe6d41bfd364d8a2074f41a as base-bionic
-FROM renovate/buildpack:2-dotnet-focal@sha256:5306d8e1e18797ca26d5bef5823c7bd6dbe14c836e504bbf57fd58e4b110ceec as base-focal
+FROM renovate/buildpack:2-dotnet@sha256:f758fba0fa629b0a843d42895cf01220301acd7d3c3ec93a946a64b5bcfbd1d9 as base-latest
+FROM renovate/buildpack:2-dotnet-bionic@sha256:ba07aeaed6ff7d71ff39126810e735f3f42b7d5662b6fff22c049b1886f4ae82 as base-bionic
+FROM renovate/buildpack:2-dotnet-focal@sha256:13bf169eb0c5e1f0e60561dec05197027519fde194a8832469d9f6a313d5f134 as base-focal
 
 #--------------------------------------
 # Image: final
