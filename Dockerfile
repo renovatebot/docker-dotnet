@@ -1,5 +1,5 @@
 # renovate: datasource=docker depName=mcr.microsoft.com/dotnet/sdk
-ARG DOTNET_VERSION=3.1.406
+ARG DOTNET_VERSION=3.1.407
 
 
 #--------------------------------------
