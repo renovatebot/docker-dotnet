@@ -5,7 +5,7 @@ ARG DOTNET_VERSION=3.1.407
 #--------------------------------------
 # Image: final
 #--------------------------------------
-FROM renovate/buildpack:4-dotnet@sha256:09fb33a5dc1c27b2a22d980c2ce062445af6a78a81e8bde08d8f8c2d463de3f0
+FROM renovate/buildpack:4-dotnet@sha256:2244227d2c1b9a3d9ba6061705cd2dc40ab3f99cb8f043cc53d5d0bfa84d79f3
 
 ARG DOTNET_VERSION
 RUN install-tool dotnet
