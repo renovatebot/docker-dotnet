@@ -8,4 +8,4 @@ FROM scratch
 ARG DOTNET_VERSION=3.1.415
 
 # renovate: datasource=docker depName=mcr.microsoft.com/dotnet/sdk
-ARG DOTNET_VERSION=5.0.402
+ARG DOTNET_VERSION=5.0.403
