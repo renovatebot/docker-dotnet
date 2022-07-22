@@ -35,3 +35,4 @@ jobs:
           command: docker-builder
           dry-run: ${{ github.ref != 'refs/heads/main' }}
           major-minor: false
+          prune: true
