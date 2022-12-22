@@ -5,7 +5,7 @@ ARG DOTNET_VERSION=6.0.404
 #--------------------------------------
 # Image: final
 #--------------------------------------
-FROM ghcr.io/containerbase/buildpack:5.6.0@sha256:9793825e71fb29de5ca77b3205e070c54ca8ee6f628fca70439d122994141f2a
+FROM ghcr.io/containerbase/buildpack:5.7.0@sha256:7e1f21ed5cba3f75fb356515bf2c543385108e7df9497bf9cd0baddd6f440fee
 
 ARG DOTNET_VERSION
 RUN install-tool dotnet
